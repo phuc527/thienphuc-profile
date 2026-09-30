@@ -16,32 +16,32 @@ import {
 
 const projects = [
   {
-    title: "Smart City Dashboard",
+    title: "TutorFlow",
     description:
-      "Real-time smart city dashboard for monitoring urban data, visualizing metrics and managing city operations through an interactive interface.",
-    tech: ["React", "TypeScript", "React Query", "WebSocket"],
-    repo: "https://github.com/phuc527/smart-city-dashboard",
+      "Management app for a private tutoring centre: teachers, students, class schedules and monthly payment tracking, with role-based access for admins and teachers enforced by Postgres Row Level Security.",
+    tech: ["React", "Vite", "Supabase", "PostgreSQL", "TanStack Query", "Tailwind CSS"],
+    repo: "https://github.com/phuc527/tutorflow",
   },
   {
-    title: "BE Engineering Lab",
+    title: "System Design in 10 Days",
     description:
-      "Backend engineering lab covering API design, authentication, concurrency, caching, database optimization, system design and scalable backend patterns.",
-    tech: ["Node.js", "TypeScript", "PostgreSQL", "Redis", "Docker"],
-    repo: "https://github.com/phuc527/be-engineering-lab",
+      "Hands-on system design labs building real infrastructure: Nginx load balancing across Node.js instances, Redis caching and cache-stampede experiments, with load tests and benchmarks.",
+    tech: ["Node.js", "TypeScript", "Nginx", "Redis", "Docker"],
+    repo: "https://github.com/phuc527/design-system-10-days",
   },
   {
-    title: "Learn Design System",
+    title: "Learn Cursor",
     description:
-      "Reusable frontend design system with scalable UI components, consistent design tokens and component-driven development practices.",
-    tech: ["React", "TypeScript", "Storybook", "Tailwind CSS"],
+      "AI-assisted development workflow practice with Cursor: analyze, plan, implement, test, review and commit, applied to cart and order modules with unit tests.",
+    tech: ["JavaScript", "Node.js", "Node Test Runner", "Cursor"],
+    repo: "https://github.com/phuc527/learn-cursor",
+  },
+  {
+    title: "31-Day System Design Roadmap",
+    description:
+      "Low-level system design roadmap from SDE-1 to SDE-3, implementing classic problems such as vending machine, elevator, ATM, booking and leaderboard systems in TypeScript.",
+    tech: ["TypeScript", "OOP", "Design Patterns"],
     repo: "https://github.com/phuc527/learn-design-system",
-  },
-  {
-    title: "Airbnb Clone",
-    description:
-      "Modern accommodation booking application focused on reusable UI, property listings, search, filtering, responsive layouts and modern React application architecture.",
-    tech: ["Next.js", "TypeScript", "ReactJS", "Tailwind CSS"],
-    repo: "https://github.com/phuc527/airbnb-clone",
   },
 ];
 
