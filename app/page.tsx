@@ -16,32 +16,32 @@ import {
 
 const projects = [
   {
-    title: "TutorFlow",
+    title: "Vui học cùng bé",
     description:
-      "Management app for a private tutoring centre: teachers, students, class schedules and monthly payment tracking, with role-based access for admins and teachers enforced by Postgres Row Level Security.",
-    tech: ["React", "Vite", "Supabase", "PostgreSQL", "TanStack Query", "Tailwind CSS"],
-    repo: "https://github.com/phuc527/tutorflow",
+      "Interactive exercise web app for primary students to practise Vietnamese sounds, rhymes and tones, with teacher accounts on Supabase. CI/CD on GitHub Actions: lint, test, build, Docker image to GHCR and Vercel production deploy.",
+    tech: ["React", "TypeScript", "Vite", "Supabase", "Tailwind CSS", "Vitest", "Docker", "GitHub Actions", "Vercel"],
+    repo: "https://github.com/phuc527/vui-hoc-van",
   },
   {
-    title: "System Design in 10 Days",
+    title: "SD101: System Design Interview Lab",
     description:
-      "Hands-on system design labs building real infrastructure: Nginx load balancing across Node.js instances, Redis caching and cache-stampede experiments, with load tests and benchmarks.",
-    tech: ["Node.js", "TypeScript", "Nginx", "Redis", "Docker"],
-    repo: "https://github.com/phuc527/design-system-10-days",
+      "System design interview roadmap with runnable labs: newsfeed, URL shortener, rate limiter, chat, ride-sharing, autocomplete, notification and flash sale, each at 4 levels from fresher to senior, plus an interactive UI showing architecture, request traces and live stats.",
+    tech: ["Node.js", "JavaScript", "React", "Vite", "TypeScript"],
+    repo: "https://github.com/phuc527/SD101Lab",
   },
   {
-    title: "Learn Cursor",
+    title: "Full Stack FastAPI + React",
     description:
-      "AI-assisted development workflow practice with Cursor: analyze, plan, implement, test, review and commit, applied to cart and order modules with unit tests.",
-    tech: ["JavaScript", "Node.js", "Node Test Runner", "Cursor"],
-    repo: "https://github.com/phuc527/learn-cursor",
+      "Full-stack app with a FastAPI backend and React frontend: JWT auth, password recovery, admin dashboard, Pytest and Playwright tests, Docker Compose with Traefik, and CI/CD pipelines on GitHub Actions.",
+    tech: ["Python", "FastAPI", "PostgreSQL", "React", "TypeScript", "Docker", "GitHub Actions"],
+    repo: "https://github.com/phuc527/fullstack-python-react",
   },
   {
-    title: "31-Day System Design Roadmap",
+    title: "NextRender Lab",
     description:
-      "Low-level system design roadmap from SDE-1 to SDE-3, implementing classic problems such as vending machine, elevator, ATM, booking and leaderboard systems in TypeScript.",
-    tech: ["TypeScript", "OOP", "Design Patterns"],
-    repo: "https://github.com/phuc527/learn-design-system",
+      "Hands-on lab for every rendering mechanism in the Next.js App Router (SSR, SSG, ISR, streaming, caching), each route showing where code ran, when HTML was generated and whether data was cached.",
+    tech: ["Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "Docker"],
+    repo: "https://github.com/phuc527/nextjs-lab",
   },
 ];
 
@@ -49,7 +49,7 @@ const skills = {
   Frontend: ["React", "TypeScript", "JavaScript", "Next.js", "HTML", "CSS"],
   Backend: ["PHP", "Laravel", "Node.js", "REST API", "Authentication"],
   Database: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
-  Tools: ["Git", "Docker", "GitHub", "Cursor", "GitHub Copilot"],
+  Tools: ["Git", "Docker", "GitHub", "GitHub Actions", "CI/CD", "Cursor", "GitHub Copilot"],
 };
 
 const experience = [
