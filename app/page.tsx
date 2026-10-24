@@ -30,18 +30,18 @@ const projects = [
     repo: "https://github.com/phuc527/SD101Lab",
   },
   {
+    title: "AWS Developer Associate (DVA-C03) Lab",
+    description:
+      "60-day study roadmap for the AWS Certified Developer Associate exam with a hands-on lab every day, covering serverless, security, deployment and troubleshooting on a near-zero budget using always-free services.",
+    tech: ["AWS", "Lambda", "DynamoDB", "API Gateway", "SQS", "SNS", "Cognito", "CloudWatch"],
+    repo: "https://github.com/phuc527/aws-dva-c03",
+  },
+  {
     title: "Full Stack FastAPI + React",
     description:
       "Full-stack app with a FastAPI backend and React frontend: JWT auth, password recovery, admin dashboard, Pytest and Playwright tests, Docker Compose with Traefik, and CI/CD pipelines on GitHub Actions.",
     tech: ["Python", "FastAPI", "PostgreSQL", "React", "TypeScript", "Docker", "GitHub Actions"],
     repo: "https://github.com/phuc527/fullstack-python-react",
-  },
-  {
-    title: "NextRender Lab",
-    description:
-      "Hands-on lab for every rendering mechanism in the Next.js App Router (SSR, SSG, ISR, streaming, caching), each route showing where code ran, when HTML was generated and whether data was cached.",
-    tech: ["Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "Docker"],
-    repo: "https://github.com/phuc527/nextjs-lab",
   },
 ];
 
